@@ -1,9 +1,8 @@
 var React = require('react');
+var request = require('superagent');
 
 var Header = require('./components/Header.jsx');
 var PokemonListContainer = require('./components/PokemonListContainer.jsx');
-var Pokemon = require('./components/Pokemon.jsx');
-var PokemonList = require('./components/PokemonList.jsx');
 
 var App = React.createClass({
 	render: function() {
